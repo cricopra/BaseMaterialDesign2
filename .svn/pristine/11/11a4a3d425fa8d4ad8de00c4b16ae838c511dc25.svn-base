@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">ActivosFijos</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!--Etiquetas-->
+    <string name="lbl_configuracion">Configuración</string>
+    <string name="lbl_ip">IP</string>
+    <string name="lbl_puerto">Puerto</string>
+    <string name="lbl_lector">MAC Lector</string>
+    <string name="lbl_IdActivosFijos">ID:</string>
+    <string name="lbl_NombreActivosFijos">Nombre:</string>
+    <string name="lbl_UbicacionActivosFijos">Ubicación:</string>
+    <string name="lbl_TagActivosFijos">TAG:</string>
+    <string name="lbl_DireccionBodega">Dirección:</string>
+    <string name="lbl_NombreClaseActivosFijos">Clase:</string>
+    <string name="lbl_NombreTipoActivosFijos">Tipo:</string>
+    <string name="lbl_NombreResponsableActivosFijos">Responsable:</string>
+    <string name="lbl_NombreCargoActivosFijos">Cargo:</string>
+
+    <!--Etiquetas Menu para parear dispositivos -->
+    <string name="disconnectReader">Desconectar lector</string>
+    <string name="connectReader">Conectar lector</string>
+
+    <!--Botones-->
+    <string name="btn_autenticar">Ingresar</string>
+    <string name="btn_guardar">Guardar</string>
+    <string name="btn_filtrar_puntos">Filtrar</string>
+    <string name="btn_asignar_tag_af_dialog">Asignar TAG</string>
+    <string name="btn_cerrar_af_dialog">Cerrar</string>
+
+    <!--Sugerencias en campos-->
+    <string name="indicio_usuario">Usuario</string>
+    <string name="indicio_clave">Clave</string>
+    <string name="indicio_ip">Servidor</string>
+    <string name="indicio_puerto">Puerto</string>
+    <string name="indicio_mac_lector">MAC Lector</string>
+
+    <!--Mensajes y Errores-->
+    <string name="msj_campo_requerido">Campo requerido</string>
+    <string name="msj_cargando">Cargando&#8230;</string>
+
+    <!-- Titulos -->
+    <string name="title_puntos">Puntos</string>
+    <string name="title_other_devices_empty">Otros dispositivos disponibles (Ninguno)</string>
+    <string name="title_other_devices_count_format">Otros dispositivos disponibles (%d)</string>
+    <string name="select_device">Seleccione un dispositivo para conectar</string>
+
+
+</resources>

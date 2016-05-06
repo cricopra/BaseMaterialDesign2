@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="12dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:id="@+id/dialogAF_A"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_IdActivosFijos"
+                android:id="@+id/lblIdActivoDialog"
+                android:textSize="20dp"
+                android:textColor="@color/cardview_light_background"
+                android:textStyle="bold"
+                android:gravity="end" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ID_ACTIVO"
+                android:id="@+id/tvIdActivoDialog"
+                android:layout_toRightOf="@+id/lblIdActivoDialog"
+                android:textSize="18dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/cardview_light_background" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:id="@+id/dialogAF_B"
+            android:layout_below="@+id/dialogAF_A"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_NombreActivosFijos"
+                android:id="@+id/lblNombreDialog"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:gravity="end" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NOMBRE_ACTIVO"
+                android:id="@+id/tvNombreDialog"
+                android:textSize="16dp"
+                android:layout_toRightOf="@+id/lblNombreDialog"
+                android:layout_marginLeft="15dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:id="@+id/dialogAF_C"
+            android:layout_below="@+id/dialogAF_B"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp" >
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_UbicacionActivosFijos"
+                android:id="@+id/lblUbicacionDialog"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:gravity="end" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UBICACION_ACTIVO"
+                android:id="@+id/tvUbicacionDialog"
+                android:textSize="16dp"
+                android:layout_toRightOf="@+id/lblUbicacionDialog"
+                android:layout_marginLeft="15dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:id="@+id/dialogAF_D"
+            android:layout_below="@+id/dialogAF_C"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp" >
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_TagActivosFijos"
+                android:id="@+id/lblTagDialog"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:gravity="end" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TAG_ACTIVO"
+                android:id="@+id/tvTagDialog"
+                android:textSize="16dp"
+                android:layout_toRightOf="@+id/lblTagDialog"
+                android:layout_marginLeft="15dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:id="@+id/dialogAF_E"
+            android:layout_below="@+id/dialogAF_D"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp" >
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_NombreClaseActivosFijos"
+                android:id="@+id/lblNombreClaseDialog"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:gravity="end" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CLASE_ACTIVO"
+                android:id="@+id/tvNombreClaseDialog"
+                android:textSize="16dp"
+                android:layout_toRightOf="@+id/lblNombreClaseDialog"
+                android:layout_marginLeft="15dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:id="@+id/dialogAF_F"
+            android:layout_below="@+id/dialogAF_E"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp" >
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_NombreTipoActivosFijos"
+                android:id="@+id/lblNombreTipoDialog"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:gravity="end" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TIPO_ACTIVO"
+                android:id="@+id/tvNombreTipoDialog"
+                android:textSize="16dp"
+                android:layout_toRightOf="@+id/lblNombreTipoDialog"
+                android:layout_marginLeft="15dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/dialogAF_G"
+            android:layout_below="@+id/dialogAF_F"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorPrimary">
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:id="@+id/dialogAF_H"
+            android:layout_below="@+id/dialogAF_G"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp" >
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_NombreResponsableActivosFijos"
+                android:id="@+id/lblNombreResponsableDialog"
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:gravity="end" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RESPONSABLE_ACTIVO"
+                android:id="@+id/tvNombreResponsableDialog"
+                android:textSize="16dp"
+                android:layout_toRightOf="@+id/lblNombreResponsableDialog"
+                android:layout_marginLeft="15dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:id="@+id/dialogAF_I"
+            android:layout_below="@+id/dialogAF_H"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp" >
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_NombreCargoActivosFijos"
+                android:id="@+id/lblNombreCargoDialog"
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:gravity="end" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CARGO_ACTIVO"
+                android:id="@+id/tvNombreCargoDialog"
+                android:textSize="16dp"
+                android:layout_toRightOf="@+id/lblNombreCargoDialog"
+                android:layout_marginLeft="15dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/dialogAF_J"
+            android:layout_below="@+id/dialogAF_I"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp">
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_cerrar_af_dialog"
+                android:id="@+id/btnCerrarAFDialog"
+                style="@style/AppTheme.ButtonStyle1"
+                android:gravity="center_vertical|center_horizontal" />
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="@string/btn_asignar_tag_af_dialog"
+                android:id="@+id/btnAsignarTagAFDialog"
+                style="@style/AppTheme.ButtonStyle1"
+                android:layout_toRightOf="@+id/btnCerrarAFDialog"
+                android:gravity="center_vertical|center_horizontal" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

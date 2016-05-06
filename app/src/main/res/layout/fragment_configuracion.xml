@@ -1,0 +1,110 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_configuracion"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_ip"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"/>
+
+        <EditText
+            android:id="@+id/etIp"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/indicio_ip"
+            android:layout_alignParentRight="true"
+            android:paddingLeft="15dp"
+            android:layout_marginLeft="120dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_puerto"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"/>
+
+        <EditText
+            android:id="@+id/etPuerto"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/indicio_puerto"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="120dp"
+            android:paddingLeft="15dp"
+            android:inputType="number"
+            android:maxLength="6"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_lector"
+            android:textStyle="bold"
+            android:layout_centerVertical="true" />
+
+        <EditText
+            android:id="@+id/etMACLector"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/indicio_mac_lector"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="120dp"
+            android:paddingLeft="15dp"
+            android:inputType="text"
+            android:layout_marginRight="@dimen/activity_horizontal_margin" />
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/btnSaveConfig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:text="@string/btn_guardar"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"/>
+
+
+</LinearLayout>
